@@ -3,11 +3,15 @@
     padding: 0;
     border: 0;
     outline: 0;
-    background-color: #5865F2;
+    background-color: #FFF;
 }
 
+.background {
+    background-image: url(Images/bgimage2.png);
+    background-size: cover;
+  }
+
 .navbar {
-    background-color: #5865F2;
     padding-left:  20%;
     padding-right: 20%;
 }
@@ -44,11 +48,11 @@
 /*hero text*/
 
 .hero {
-    background-color: #5865F2;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     color: #FFF;
     text-align: center;
     margin-top: 100px;
+    padding-bottom: 100px;
 }
 
 .hero h1 {
@@ -115,4 +119,103 @@
     font-size: 20px;
     font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 1.625;
+}
+
+/*Voice chat section*/
+
+.voice {
+    background-color: #f6f6f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left:30% ;
+    margin-top: 100px;
+    padding-top: 200px;
+    margin-bottom: 100px;
+    padding-bottom: 200px;
+}
+
+.voicetxtcn {
+    float: left;
+    margin-left: 20px;
+    padding-top: 2%;
+}
+
+.voice h2 {
+    font-size: 32px;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+}
+
+.voice p {
+    font-size: 20px;
+    font-family:"ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif ;
+    line-height: 1.625;
+}
+
+/*Mod tools Section*/
+
+.modtools {
+    background-color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 25%;
+    margin-top: 100px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+.modtxtcn {
+    margin-left: 20px;
+    float: right;
+    padding-right: 40%;
+    padding-top: 2%;
+}
+
+.modtxtcn h2 {
+    font-size: 32px;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+}
+
+.modtxtcn p{
+    font-size: 20px;
+    font-family:"ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif ;
+    line-height: 1.625;
+}
+
+/*Latency Section*/
+
+.latency {
+    background-color: #f6f6f6;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.latency h1 {
+    font-size: 40px;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+}
+
+.latency p {
+    font-size: 20px;
+    font-family:"ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif ;
+    line-height: 1.625;
+}
+
+#bottombutt {
+    color: #FFF;
+    background-color: #5865f2;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 28px;
+    font-size: 20px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #f6f6f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
